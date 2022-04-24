@@ -100,7 +100,7 @@ func main() {
 	}
 	if os.Getenv("FORM_SECRET_KEY") == "" {
 		// Your form's secret key downloaded from FormSG upon form creation FORM_SECRET_KEY
-		os.Setenv("FORM_SECRET_KEY", "m0+YQrHaHGVnww/m/LKY3+ckquy3PcqmsA5ptaF30e4=")
+		os.Setenv("FORM_SECRET_KEY", "FORM_SECRET_KEY_VALUE")
 	}
 	if os.Getenv("FORM_POST_URI") == "" {
 		// This is where your domain is hosted, and should match
